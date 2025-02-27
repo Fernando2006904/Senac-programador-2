@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programação\\Senac-programador-2\\Login\\Login.csproj": {}
+    "D:\\Programação\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "D:\\Programação\\Senac-programador-2\\Login\\Login.csproj": {
+    "D:\\Programação\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programação\\Senac-programador-2\\Login\\Login.csproj",
-        "projectName": "Login",
-        "projectPath": "D:\\Programação\\Senac-programador-2\\Login\\Login.csproj",
+        "projectUniqueName": "D:\\Programação\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectName": "WinFormsApp1",
+        "projectPath": "D:\\Programação\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\fernando.lalves2\\.nuget\\packages\\",
-        "outputPath": "D:\\Programação\\Senac-programador-2\\Login\\obj\\",
+        "outputPath": "D:\\Programação\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
