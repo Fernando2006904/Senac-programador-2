@@ -42,6 +42,11 @@
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
+            label4 = new Label();
+            label10 = new Label();
+            textBox5 = new TextBox();
+            button2 = new Button();
+            textBox6 = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -107,7 +112,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(567, 105);
+            label5.Location = new Point(567, 103);
             label5.Name = "label5";
             label5.Size = new Size(65, 32);
             label5.TabIndex = 6;
@@ -152,7 +157,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(351, 388);
+            label7.Location = new Point(567, 266);
             label7.Name = "label7";
             label7.Size = new Size(78, 32);
             label7.TabIndex = 12;
@@ -163,7 +168,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(567, 175);
+            label8.Location = new Point(567, 162);
             label8.Name = "label8";
             label8.Size = new Size(78, 32);
             label8.TabIndex = 13;
@@ -173,18 +178,66 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(567, 243);
+            label9.Location = new Point(567, 216);
             label9.Name = "label9";
             label9.Size = new Size(78, 32);
             label9.TabIndex = 15;
             label9.Text = "label9";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(1047, 153);
+            label4.Name = "label4";
+            label4.Size = new Size(91, 32);
+            label4.TabIndex = 16;
+            label4.Text = "Código";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label10.Location = new Point(1031, 114);
+            label10.Name = "label10";
+            label10.Size = new Size(107, 32);
+            label10.TabIndex = 17;
+            label10.Text = "Cadastro";
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(1154, 123);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(133, 23);
+            textBox5.TabIndex = 18;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(1154, 216);
+            button2.Name = "button2";
+            button2.Size = new Size(133, 32);
+            button2.TabIndex = 19;
+            button2.Text = "Login";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // textBox6
+            // 
+            textBox6.Location = new Point(1154, 162);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(133, 23);
+            textBox6.TabIndex = 20;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HotTrack;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1433, 450);
+            Controls.Add(textBox6);
+            Controls.Add(button2);
+            Controls.Add(textBox5);
+            Controls.Add(label10);
+            Controls.Add(label4);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
@@ -222,5 +275,10 @@
         private Label label7;
         private Label label8;
         private Label label9;
+        private Label label4;
+        private Label label10;
+        private TextBox textBox5;
+        private Button button2;
+        private TextBox textBox6;
     }
 }

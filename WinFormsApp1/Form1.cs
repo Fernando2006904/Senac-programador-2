@@ -1,4 +1,5 @@
 using System.Diagnostics.Eventing.Reader;
+using System.Runtime.InteropServices;
 
 namespace WinFormsApp1
 {
@@ -8,6 +9,8 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+        List<string> listausuarios = new List<string>() { "neymar.jr, pablo.vitar, sukuna silva" };
+        List<string> listaemails = new List<string>() { "bruna, 12345, 777" };
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -21,6 +24,9 @@ namespace WinFormsApp1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            
+
+            
 
         }
 
@@ -36,6 +42,18 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            string usuariobuscado;
+
+            
+                
+            
+            
+            {
+                
+            }
+
+
             string email = textBox1.Text;
             string senha = textBox2.Text;
 
@@ -45,6 +63,48 @@ namespace WinFormsApp1
                 label5.ForeColor = Color.Red;
                 
             }
+            int pocisaousuarioencontrado = -1;
+            for (int i = 0; i < listausuarios.Count; i++)
+            {
+                if (pocisaousuarioencontrado == -1)
+                {
+                    pocisaousuarioencontrado = i;
+                }
+
+
+
+
+                if (pocisaousuarioencontrado != -1)
+                {
+                    label5.Text = "Autenticado com sucesso!!!";
+                    label5.ForeColor = Color.Red;
+                }
+                else
+                {
+                    label5.Text = "usuario ou senha incorretas!!!";
+                    label5.ForeColor = Color.Green;
+                }
+
+
+                {
+                    
+                    {
+                        
+                    }
+                }
+                {
+                    
+                    
+                }
+            }
+
+
+
+
+
+
+
+
             if (senha == string.Empty)
             {
                 label7.Text = "Senha é obrigatória!!!";
@@ -75,15 +135,17 @@ namespace WinFormsApp1
             else
             {
                 label7.Text = "Email ou senha inválidos!!!";
-                label7.ForeColor = Color.Red;
+                label7.ForeColor = Color.Green;
             }
+
+
+
+
             {
 
             }
 
-            {
-
-            }
+            
 
             {
 
