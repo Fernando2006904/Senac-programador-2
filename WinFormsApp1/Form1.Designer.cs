@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            textBox1 = new TextBox();
+            textNovoUsuario = new TextBox();
             label2 = new Label();
             textBox2 = new TextBox();
             label3 = new Label();
@@ -43,9 +43,9 @@
             label8 = new Label();
             label9 = new Label();
             label4 = new Label();
-            label10 = new Label();
+            labelnovousuario = new Label();
             textBox5 = new TextBox();
-            button2 = new Button();
+            Senha = new Button();
             textBox6 = new TextBox();
             SuspendLayout();
             // 
@@ -60,13 +60,13 @@
             label1.Text = "Email";
             label1.Click += label1_Click;
             // 
-            // textBox1
+            // textNovoUsuario
             // 
-            textBox1.Location = new Point(321, 114);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(147, 23);
-            textBox1.TabIndex = 1;
-            textBox1.TextChanged += textBox1_TextChanged;
+            textNovoUsuario.Location = new Point(321, 112);
+            textNovoUsuario.Name = "textNovoUsuario";
+            textNovoUsuario.Size = new Size(147, 23);
+            textNovoUsuario.TabIndex = 1;
+            textNovoUsuario.TextChanged += textBox1_TextChanged;
             // 
             // label2
             // 
@@ -117,7 +117,6 @@
             label5.Size = new Size(65, 32);
             label5.TabIndex = 6;
             label5.Text = "label";
-            label5.Click += label5_Click;
             // 
             // button1
             // 
@@ -162,7 +161,6 @@
             label7.Size = new Size(78, 32);
             label7.TabIndex = 12;
             label7.Text = "label7";
-            label7.Click += label7_Click;
             // 
             // label8
             // 
@@ -194,15 +192,16 @@
             label4.TabIndex = 16;
             label4.Text = "Código";
             // 
-            // label10
+            // labelnovousuario
             // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label10.Location = new Point(1031, 114);
-            label10.Name = "label10";
-            label10.Size = new Size(107, 32);
-            label10.TabIndex = 17;
-            label10.Text = "Cadastro";
+            labelnovousuario.AutoSize = true;
+            labelnovousuario.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            labelnovousuario.Location = new Point(723, 101);
+            labelnovousuario.Name = "labelnovousuario";
+            labelnovousuario.Size = new Size(107, 32);
+            labelnovousuario.TabIndex = 17;
+            labelnovousuario.Text = "Cadastro";
+            labelnovousuario.Click += labelnovousuario_Click;
             // 
             // textBox5
             // 
@@ -210,15 +209,17 @@
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(133, 23);
             textBox5.TabIndex = 18;
+            textBox5.TextChanged += textBox5_TextChanged;
             // 
-            // button2
+            // Senha
             // 
-            button2.Location = new Point(1154, 216);
-            button2.Name = "button2";
-            button2.Size = new Size(133, 32);
-            button2.TabIndex = 19;
-            button2.Text = "Login";
-            button2.UseVisualStyleBackColor = true;
+            Senha.Location = new Point(1154, 216);
+            Senha.Name = "Senha";
+            Senha.Size = new Size(133, 32);
+            Senha.TabIndex = 19;
+            Senha.Text = "Senha";
+            Senha.UseVisualStyleBackColor = true;
+            Senha.Click += button2_Click;
             // 
             // textBox6
             // 
@@ -226,17 +227,18 @@
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(133, 23);
             textBox6.TabIndex = 20;
+            textBox6.TextChanged += textBox6_TextChanged;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HotTrack;
-            ClientSize = new Size(1433, 450);
+            ClientSize = new Size(1462, 450);
             Controls.Add(textBox6);
-            Controls.Add(button2);
+            Controls.Add(Senha);
             Controls.Add(textBox5);
-            Controls.Add(label10);
+            Controls.Add(labelnovousuario);
             Controls.Add(label4);
             Controls.Add(label9);
             Controls.Add(label8);
@@ -250,7 +252,7 @@
             Controls.Add(label3);
             Controls.Add(textBox2);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(textNovoUsuario);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
@@ -262,7 +264,7 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
+        private TextBox textNovoUsuario;
         private Label label2;
         private TextBox textBox2;
         private Label label3;
@@ -276,9 +278,9 @@
         private Label label8;
         private Label label9;
         private Label label4;
-        private Label label10;
+        private Label labelnovousuario;
         private TextBox textBox5;
-        private Button button2;
+        private Button Senha;
         private TextBox textBox6;
     }
 }
