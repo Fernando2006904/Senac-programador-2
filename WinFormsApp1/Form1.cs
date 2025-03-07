@@ -11,6 +11,14 @@ namespace WinFormsApp1
         }
         List<string> listausuarios = new List<string>() { "neymar.jr, pablo.vitar, sukuna silva" };
         List<string> listaemails = new List<string>() { "bruna, 12345, 777" };
+        List<char> alfabetominusculo = new List<char>() { 'a', 'b', 'c' };
+        List<char> alfabetomaiusculo = new List<char>() { 'A', 'B', 'C' };
+        List<char> numeros = new List<char>() { '1', '2', '3' };
+        List<char> caracteresespeciais = new List<char>() { '@', '!', '#' };
+
+
+
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -80,11 +88,34 @@ namespace WinFormsApp1
             if (string.IsNullOrEmpty(novasenha))
             {
 
+
+
                 
-                labelnovousuario.Text = "min 8 Chars!!!";
+
+
 
 
             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+
+            
 
 
 
@@ -326,6 +357,29 @@ namespace WinFormsApp1
             string novoUsuario = textNovoUsuario.Text;
             string novaSenha = textBox2.Text;
 
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             if (string.IsNullOrEmpty(novoUsuario))
             {
 
@@ -374,7 +428,7 @@ namespace WinFormsApp1
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
-
+           
 
 
 
