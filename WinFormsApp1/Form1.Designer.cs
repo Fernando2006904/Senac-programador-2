@@ -47,6 +47,8 @@
             textBox5 = new TextBox();
             Senha = new Button();
             textBox6 = new TextBox();
+            label10 = new Label();
+            label11 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -186,7 +188,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(1047, 153);
+            label4.Location = new Point(958, 155);
             label4.Name = "label4";
             label4.Size = new Size(91, 32);
             label4.TabIndex = 16;
@@ -196,16 +198,16 @@
             // 
             labelnovousuario.AutoSize = true;
             labelnovousuario.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            labelnovousuario.Location = new Point(723, 101);
+            labelnovousuario.Location = new Point(1081, 266);
             labelnovousuario.Name = "labelnovousuario";
-            labelnovousuario.Size = new Size(107, 32);
+            labelnovousuario.Size = new Size(97, 32);
             labelnovousuario.TabIndex = 17;
-            labelnovousuario.Text = "Cadastro";
+            labelnovousuario.Text = "Entrar !!";
             labelnovousuario.Click += labelnovousuario_Click;
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(1154, 123);
+            textBox5.Location = new Point(1066, 114);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(133, 23);
             textBox5.TabIndex = 18;
@@ -213,7 +215,7 @@
             // 
             // Senha
             // 
-            Senha.Location = new Point(1154, 216);
+            Senha.Location = new Point(1066, 205);
             Senha.Name = "Senha";
             Senha.Size = new Size(133, 32);
             Senha.TabIndex = 19;
@@ -223,11 +225,32 @@
             // 
             // textBox6
             // 
-            textBox6.Location = new Point(1154, 162);
+            textBox6.Location = new Point(1066, 164);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(133, 23);
             textBox6.TabIndex = 20;
             textBox6.TextChanged += textBox6_TextChanged;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label10.Location = new Point(942, 112);
+            label10.Name = "label10";
+            label10.Size = new Size(107, 32);
+            label10.TabIndex = 21;
+            label10.Text = "Cadastro";
+            label10.Click += label10_Click;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(1081, 358);
+            label11.Name = "label11";
+            label11.Size = new Size(89, 15);
+            label11.TabIndex = 22;
+            label11.Text = "labelnovasenha";
+            label11.Click += label11_Click;
             // 
             // Form1
             // 
@@ -235,6 +258,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HotTrack;
             ClientSize = new Size(1462, 450);
+            Controls.Add(label11);
+            Controls.Add(label10);
             Controls.Add(textBox6);
             Controls.Add(Senha);
             Controls.Add(textBox5);
@@ -282,5 +307,7 @@
         private TextBox textBox5;
         private Button Senha;
         private TextBox textBox6;
+        private Label label10;
+        private Label label11;
     }
 }

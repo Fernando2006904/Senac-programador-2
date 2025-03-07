@@ -62,11 +62,29 @@ namespace WinFormsApp1
         }
 
         private void button1_Click(object sender, EventArgs e)
+
+
+
+
+
+
         {
 
             string usuariobuscado = textNovoUsuario.Text;
             string senha = textBox2.Text;
+            string novasenha = textBox5.Text;
 
+
+
+
+            if (string.IsNullOrEmpty(novasenha))
+            {
+
+                
+                labelnovousuario.Text = "min 8 Chars!!!";
+
+
+            }
 
 
 
@@ -164,11 +182,42 @@ namespace WinFormsApp1
                 }
 
 
-                else if (email == "Fefe17@gmail" && senha == "Fefe18")
+                else if (email == "Fefe17@gmail" && senha == "Fefe18@!!")
                 {
+
+
+
+
+
+
+
+
+
+
+
                     label7.Text = "Login efetuado com sucesso!!!";
                     label7.ForeColor = Color.Green;
                 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 else
                 {
                     label7.Text = "Email ou senha inválidos!!!";
@@ -279,6 +328,10 @@ namespace WinFormsApp1
 
             if (string.IsNullOrEmpty(novoUsuario))
             {
+
+
+
+
                 labelnovousuario.Text = "Usuário é obrigatório!!!";
 
             }
@@ -302,7 +355,7 @@ namespace WinFormsApp1
                 }
                 else
                 {
-                    labelnovousuario.Text = "Usuário já cadastrado!!!";
+                    labelnovousuario.Text = "Úsuario já cadastrado!!!";
                 }
 
 
@@ -316,15 +369,34 @@ namespace WinFormsApp1
         private void textBox5_TextChanged(object sender, EventArgs e)
         {
 
+
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
+
+
+
+
         }
 
         private void labelnovousuario_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+          
+
+
+
 
         }
     }
