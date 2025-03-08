@@ -45,10 +45,11 @@
             label4 = new Label();
             labelnovousuario = new Label();
             textBox5 = new TextBox();
-            Senha = new Button();
+            labelresultado = new Button();
             textBox6 = new TextBox();
             label10 = new Label();
             label11 = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -213,15 +214,15 @@
             textBox5.TabIndex = 18;
             textBox5.TextChanged += textBox5_TextChanged;
             // 
-            // Senha
+            // labelresultado
             // 
-            Senha.Location = new Point(1066, 205);
-            Senha.Name = "Senha";
-            Senha.Size = new Size(133, 32);
-            Senha.TabIndex = 19;
-            Senha.Text = "Senha";
-            Senha.UseVisualStyleBackColor = true;
-            Senha.Click += button2_Click;
+            labelresultado.Location = new Point(1066, 205);
+            labelresultado.Name = "labelresultado";
+            labelresultado.Size = new Size(133, 32);
+            labelresultado.TabIndex = 19;
+            labelresultado.Text = "Senha";
+            labelresultado.UseVisualStyleBackColor = true;
+            labelresultado.Click += button2_Click;
             // 
             // textBox6
             // 
@@ -252,16 +253,27 @@
             label11.Text = "labelnovasenha";
             label11.Click += label11_Click;
             // 
+            // button2
+            // 
+            button2.Location = new Point(1251, 115);
+            button2.Name = "button2";
+            button2.Size = new Size(144, 23);
+            button2.TabIndex = 23;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HotTrack;
             ClientSize = new Size(1462, 450);
+            Controls.Add(button2);
             Controls.Add(label11);
             Controls.Add(label10);
             Controls.Add(textBox6);
-            Controls.Add(Senha);
+            Controls.Add(labelresultado);
             Controls.Add(textBox5);
             Controls.Add(labelnovousuario);
             Controls.Add(label4);
@@ -305,9 +317,10 @@
         private Label label4;
         private Label labelnovousuario;
         private TextBox textBox5;
-        private Button Senha;
+        private Button labelresultado;
         private TextBox textBox6;
         private Label label10;
         private Label label11;
+        private Button button2;
     }
 }

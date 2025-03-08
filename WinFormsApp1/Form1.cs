@@ -10,7 +10,9 @@ namespace WinFormsApp1
             InitializeComponent();
         }
         List<string> listausuarios = new List<string>() { "neymar.jr, pablo.vitar, sukuna silva" };
-        List<string> listaemails = new List<string>() { "bruna, 12345, 777" };
+        List<string> listaSenhas = new List<string>() { "bruna, 12345, 777" };
+        List<string> listasenhas = new List<string>() { "brun@123", "12345Abc!", "sete777sete" };
+
         List<char> alfabetominusculo = new List<char>() { 'a', 'b', 'c' };
         List<char> alfabetomaiusculo = new List<char>() { 'A', 'B', 'C' };
         List<char> numeros = new List<char>() { '1', '2', '3' };
@@ -20,13 +22,32 @@ namespace WinFormsApp1
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
         private void label1_Click(object sender, EventArgs e)
         {
+
+
+
+
 
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
+
+            string listaemails = textBox2.Text;
             string novoUsuario = textNovoUsuario.Text;
             string novaSenha = textBox2.Text;
             string labelNovoUsuario;
@@ -40,9 +61,10 @@ namespace WinFormsApp1
                 }
             }
             if (!usuarioEncontrado)
+
             {
                 listausuarios.Add(novoUsuario);
-                listaemails.Add(novaSenha);
+
                 labelNovoUsuario = "Usuário cadastrado com sucesso!!!";
             }
 
@@ -90,7 +112,7 @@ namespace WinFormsApp1
 
 
 
-                
+
 
 
 
@@ -112,10 +134,10 @@ namespace WinFormsApp1
 
 
 
-                
 
 
-            
+
+
 
 
 
@@ -185,7 +207,7 @@ namespace WinFormsApp1
             }
 
             int pocisaosenhaencontrada = -1;
-            for (int i = 0; i < listaemails.Count; i++)
+            for (int i = 0; i < listasenhas.Count; i++)
             {
                 if (pocisaosenhaencontrada == -1)
                 {
@@ -358,7 +380,7 @@ namespace WinFormsApp1
             string novaSenha = textBox2.Text;
 
 
-            
+
 
 
 
@@ -392,28 +414,110 @@ namespace WinFormsApp1
             if (string.IsNullOrEmpty(novaSenha))
             {
                 labelnovousuario.Text = "Senha é obrigatória!!!";
+                labelresultado.Text = "Senha é obrigatória!!!";
+                return;
             }
+
             bool usuarioEncontrado = false;
             for (int i = 0; i < listausuarios.Count; i++)
-            {
-                if (novoUsuario == listausuarios[i])
+                if (novaSenha.Length < 8)
                 {
-                    usuarioEncontrado = true;
+
+                    if (novoUsuario == listausuarios[i])
+                    {
+                        usuarioEncontrado = true;
+                    }
+
+                    labelresultado.Text = "Senha deve ter no mínimo 8 caracteres!!!";
+                    return;
+
+
                 }
 
-                if (!usuarioEncontrado)
+
+
+
+
+
+            {
+
+
+
+
                 {
-                    listausuarios.Add(novoUsuario);
-                    listaemails.Add(novaSenha);
-                    labelnovousuario.Text = "Usuário cadastrado com sucesso!!!";
+                    if (!usuarioEncontrado)
+                        if (!novaSenha.Any(char.IsUpper))
+                        {
+                            listausuarios.Add(novoUsuario);
+                            listasenhas.Add(novaSenha);
+                            labelnovousuario.Text = "Usuário cadastrado com sucesso!!!";
+                            labelresultado.Text = "Senha deve ter no mínimo 1 letra maiúscula!!!";
+                            return;
+
+
+                        }
+
+                        else
+                        if (!novaSenha.Any(char.IsLower))
+
+                        {
+                            labelresultado.Text = "Senha deve ter no mínimo 1 letra minúscula!!!";
+                            return;
+                        }
+
+                    if (!novaSenha.Any(char.IsDigit))
+                    {
+                        labelnovousuario.Text = "Já existe um úsuario cadastrado!!!";
+                        labelresultado.Text = "Senha deve ter no mínimo 1 número!!!";
+                        return;
+                    }
+
+                    if (novaSenha.Any(char.IsPunctuation))
+                    {
+                        labelresultado.Text = "Senha deve ter no mínimo 1 caractere especial!!!";
+                        return;
+                    }
+
+                    if (novaSenha.Any(char.IsWhiteSpace))
+                    {
+                        labelresultado.Text = "Senha não pode ter espaços em branco!!!";
+                        return;
+                    }
+
+                    if (listausuarios.Contains(novoUsuario))
+                    {
+                        labelnovousuario.Text = "Já existe um usuário cadastrado!!!";
+                        return;
+                    }
+                    else
+                    {
+                        listausuarios.Add(novoUsuario);
+                        listasenhas.Add(novaSenha);
+                        labelnovousuario.Text = "Usuário cadastrado com sucesso!!!";
+
+                    }
+
+
                 }
-                else
+
+
                 {
-                    labelnovousuario.Text = "Úsuario já cadastrado!!!";
+
+                }
+
+                {
+
                 }
 
 
             }
+
+
+
+
+
+
+
 
 
 
@@ -428,7 +532,7 @@ namespace WinFormsApp1
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
-           
+
 
 
 
@@ -447,12 +551,136 @@ namespace WinFormsApp1
 
         private void label11_Click(object sender, EventArgs e)
         {
-          
+
 
 
 
 
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            string novoUsuario = textNovoUsuario.Text;
+            string novaSenha = textBox2.Text;
+
+
+            if (string.IsNullOrEmpty(novoUsuario))
+            {
+
+
+
+
+                labelnovousuario.Text = "Usuário é obrigatório!!!";
+
+            }
+
+
+            if (string.IsNullOrEmpty(novaSenha))
+            {
+                labelnovousuario.Text = "Senha é obrigatória!!!";
+                labelresultado.Text = "Senha é obrigatória!!!";
+                
+            }
+
+            bool usuarioEncontrado = false;
+            for (int i = 0; i < listausuarios.Count; i++)
+                if (novaSenha.Length < 8)
+                {
+
+                    if (novoUsuario == listausuarios[i])
+                    {
+                        usuarioEncontrado = true;
+                    }
+
+                    labelresultado.Text = "Senha deve ter no mínimo 8 caracteres!!!";
+                    return;
+
+
+                }
+
+
+            {
+                if (!usuarioEncontrado)
+                    if (!novaSenha.Any(char.IsUpper))
+                    {
+                        listausuarios.Add(novoUsuario);
+                        listasenhas.Add(novaSenha);
+                        labelnovousuario.Text = "Usuário cadastrado com sucesso!!!";
+                        labelresultado.Text = "Senha deve ter no mínimo 1 letra maiúscula!!!";
+                        return;
+
+
+                    }
+
+                    else
+                    if (!novaSenha.Any(char.IsLower))
+
+                    {
+                        labelresultado.Text = "Senha deve ter no mínimo 1 letra minúscula!!!";
+                        return;
+                    }
+
+                if (!novaSenha.Any(char.IsDigit))
+                {
+                    labelnovousuario.Text = "Já existe um úsuario cadastrado!!!";
+                    labelresultado.Text = "Senha deve ter no mínimo 1 número!!!";
+                    return;
+                }
+
+
+
+                if (novaSenha.Any(char.IsPunctuation))
+                {
+                    labelresultado.Text = "Senha deve ter no mínimo 1 caractere especial!!!";
+                    return;
+                }
+
+                if (novaSenha.Any(char.IsWhiteSpace))
+                {
+                    labelresultado.Text = "Senha não pode ter espaços em branco!!!";
+                    return;
+                }
+
+                if (listausuarios.Contains(novoUsuario))
+                {
+                    labelnovousuario.Text = "Já existe um usuário cadastrado!!!";
+                    return;
+                }
+                else
+                {
+                    listausuarios.Add(novoUsuario);
+                    listasenhas.Add(novaSenha);
+                    labelnovousuario.Text = "Usuário cadastrado com sucesso!!!";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                }
+            }
+
+        }
     }
 }
+    
 
