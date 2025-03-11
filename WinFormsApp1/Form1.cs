@@ -4,10 +4,25 @@ using System.Runtime.InteropServices;
 namespace WinFormsApp1
 {
     public partial class Form1 : Form
+       
     {
+        Usuario neymar = new Usuario() { Email = "neymar.@jr", Senha = "brun@123" };
+        Usuario pablo = new Usuario() { Email = "pablo.@vitar", Senha = "12345Abc!" };
+        Usuario sukuna = new Usuario() { Email = "sukuna.@silva", Senha = "sete7sete" };
+
+        List<Usuario> usuarios =  new List<Usuario>();
+
+
         public Form1()
         {
             InitializeComponent();
+            
+            usuarios.Add(neymar);
+            usuarios.Add(pablo);
+            usuarios.Add(sukuna);
+
+
+
         }
         List<string> listausuarios = new List<string>() { "neymar.jr, pablo.vitar, sukuna silva" };
         List<string> listaSenhas = new List<string>() { "bruna, 12345, 777" };
@@ -18,6 +33,7 @@ namespace WinFormsApp1
         List<char> numeros = new List<char>() { '1', '2', '3' };
         List<char> caracteresespeciais = new List<char>() { '@', '!', '#' };
 
+        
 
 
 
@@ -35,8 +51,20 @@ namespace WinFormsApp1
 
 
 
-        private void label1_Click(object sender, EventArgs e)
+
+
+    private void label1_Click(object sender, EventArgs e)
         {
+            string usuariobuscado = textNovoUsuario.Text;
+            string senha = textBox2.Text;
+
+
+            
+
+
+
+
+
 
 
 
@@ -117,6 +145,12 @@ namespace WinFormsApp1
 
 
 
+
+
+
+
+
+
             }
 
 
@@ -143,9 +177,9 @@ namespace WinFormsApp1
 
 
 
-            {
+            
 
-            }
+            
 
 
             string email = textNovoUsuario.Text;
@@ -577,6 +611,7 @@ namespace WinFormsApp1
 
             if (string.IsNullOrEmpty(novaSenha))
             {
+
                 labelnovousuario.Text = "Senha é obrigatória!!!";
                 labelresultado.Text = "Senha é obrigatória!!!";
                 
