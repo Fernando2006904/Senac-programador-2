@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programação\\Calculadora\\Calculadora.csproj",
+      "projectUniqueName": "D:\\Programação\\Senac-programador-2\\Calculadora\\Calculadora.csproj",
       "projectName": "Calculadora",
-      "projectPath": "D:\\Programação\\Calculadora\\Calculadora.csproj",
+      "projectPath": "D:\\Programação\\Senac-programador-2\\Calculadora\\Calculadora.csproj",
       "packagesPath": "C:\\Users\\fernando.lalves2\\.nuget\\packages\\",
-      "outputPath": "D:\\Programação\\Calculadora\\obj\\",
+      "outputPath": "D:\\Programação\\Senac-programador-2\\Calculadora\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

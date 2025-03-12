@@ -36,6 +36,9 @@
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
+            comboBox1 = new ComboBox();
+            Calcular = new Button();
+            button4 = new Button();
             SuspendLayout();
             // 
             // BotãoCalculos
@@ -115,12 +118,44 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(628, 245);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 8;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            // 
+            // Calcular
+            // 
+            Calcular.Location = new Point(628, 288);
+            Calcular.Name = "Calcular";
+            Calcular.Size = new Size(121, 30);
+            Calcular.TabIndex = 9;
+            Calcular.Text = "Calcular";
+            Calcular.UseVisualStyleBackColor = true;
+            Calcular.Click += button4_Click;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(658, 138);
+            button4.Name = "button4";
+            button4.Size = new Size(75, 23);
+            button4.TabIndex = 10;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click_1;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(button4);
+            Controls.Add(Calcular);
+            Controls.Add(comboBox1);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -145,5 +180,8 @@
         private Button button1;
         private Button button2;
         private Button button3;
+        private ComboBox comboBox1;
+        private Button Calcular;
+        private Button button4;
     }
 }
