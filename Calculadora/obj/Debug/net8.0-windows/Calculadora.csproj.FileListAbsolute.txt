@@ -32,3 +32,4 @@ D:\Programação\Senac-programador-2\Calculadora\obj\Debug\net8.0-windows\Calcul
 D:\Programação\Senac-programador-2\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
 D:\Programação\Senac-programador-2\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll
 D:\Programação\Senac-programador-2\Calculadora\obj\Debug\net8.0-windows\Calculadora.NovoForm.resources
+D:\Programação\Senac-programador-2\Calculadora\obj\Debug\net8.0-windows\Calculadora.FormQuadrado.resources

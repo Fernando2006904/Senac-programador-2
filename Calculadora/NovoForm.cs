@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.DataFormats;
 
 namespace Calculadora
 {
@@ -47,9 +46,7 @@ namespace Calculadora
             {
                 MessageBox.Show("Por favor, insira um valor válido.", "Erro de Entrada", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new NovoForm());
+            
             {
                 
             }
