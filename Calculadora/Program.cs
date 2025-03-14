@@ -14,6 +14,7 @@ namespace Calculadora
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
             Application.Run(new FormQuadrado());
+            Application.Run(new Esfera());
         }
     }
 }

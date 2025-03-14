@@ -217,7 +217,7 @@
             // 
             Resultado2.AutoSize = true;
             Resultado2.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Resultado2.Location = new Point(478, 367);
+            Resultado2.Location = new Point(505, 355);
             Resultado2.Name = "Resultado2";
             Resultado2.Size = new Size(131, 32);
             Resultado2.TabIndex = 18;
