@@ -41,7 +41,7 @@ namespace Calculadora
                 double volume = CalculoVolume_Click(raio);
 
                 CalcularCircunferência.Text = $"Circunferência: {circunferência:F2} unidades";
-                CalculoVolume.Text = $"Volume: {volume:F3} unidades cúbicas";
+                CalculoVolume.Text = $"Volume: {volume:F2} unidades cúbicas";
 
             }
             catch (Exception ex)
@@ -50,8 +50,13 @@ namespace Calculadora
             }
 
 
-    }
+        }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            double volume = CalculoVolume_Click(Convert.ToDouble(textBox1.Text));
+            double circunferência = CalcularCircunferência_Click(Convert.ToDouble(textBox1.Text));
+        }
     }
 }
 
