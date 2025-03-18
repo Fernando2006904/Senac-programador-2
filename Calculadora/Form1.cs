@@ -9,7 +9,7 @@ namespace Calculadora
         private string operacao = "";
         private bool digitandoNumero = false;
 
-
+       
 
 
         public Form1()
