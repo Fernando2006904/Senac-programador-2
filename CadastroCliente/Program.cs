@@ -1,3 +1,5 @@
+using System.Security.Permissions;
+
 namespace CadastroCliente
 {
     internal static class Program

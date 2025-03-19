@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace CadastroCliente
 {
-    enum EtniaCliente
+    enum Etinia_2
     {
-        Br,
-        negra,
-        parda,
+        Branco,
+        Pardo
+            
+
+
+
     }
 }

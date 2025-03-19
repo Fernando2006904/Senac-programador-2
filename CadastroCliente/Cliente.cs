@@ -6,18 +6,23 @@ using System.Threading.Tasks;
 
 namespace CadastroCliente
 {
-    internal class Cliente
+    internal class  Cliente
     {
 
-        public string ID { get; set; }
+
+
+        public int ID { get; set; }
         public string Nome { get; set; }
         public string datanascimento { get; set; }
         public string telefone { get; set; }
         public string Email { get; set; }
-        public string  { get; set; }
-        public string   { get; set; }
+        public genero genero { get; set; }
+        public EndereçoCliente endereço { get; set; }
         public string NomeSocial { get; set; }
-        public string  Etinia { get; set; }
-        public string TipoCliente { get; set; }
+        public Etinia_2 etinia{ get; set; }
+
+        public  Estrangeiro_Cliente  Estrangeiro { get; set; }
+
+        public  Tipocliente tipocliente { get; set; }
     }
 }

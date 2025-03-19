@@ -1,0 +1,17 @@
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\CadastroCliente.Form1.resources
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\CadastroCliente.csproj.GenerateResource.cache
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\CadastroCliente.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\CadastroCliente.AssemblyInfoInputs.cache
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\CadastroCliente.AssemblyInfo.cs
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\CadastroCliente.csproj.CoreCompileInputs.cache
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\CadastroCliente.sourcelink.json
+D:\Programação\Senac-programador-2\CadastroCliente\bin\Debug\net8.0-windows\CadastroCliente.exe
+D:\Programação\Senac-programador-2\CadastroCliente\bin\Debug\net8.0-windows\CadastroCliente.deps.json
+D:\Programação\Senac-programador-2\CadastroCliente\bin\Debug\net8.0-windows\CadastroCliente.runtimeconfig.json
+D:\Programação\Senac-programador-2\CadastroCliente\bin\Debug\net8.0-windows\CadastroCliente.dll
+D:\Programação\Senac-programador-2\CadastroCliente\bin\Debug\net8.0-windows\CadastroCliente.pdb
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\CadastroCliente.dll
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\refint\CadastroCliente.dll
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\CadastroCliente.pdb
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\CadastroCliente.genruntimeconfig.cache
+D:\Programação\Senac-programador-2\CadastroCliente\obj\Debug\net8.0-windows\ref\CadastroCliente.dll
