@@ -24,5 +24,55 @@ namespace CadastroCliente
         public  Estrangeiro_Cliente  Estrangeiro { get; set; }
 
         public  Tipocliente tipocliente { get; set; }
+
+
+        private bool ValidarCampos()
+        {
+            if (string.IsNullOrEmpty(Nome))
+            {
+                return false;
+            }
+            if (string.IsNullOrEmpty(datanascimento))
+            {
+                return false;
+            }
+            if (string.IsNullOrEmpty(telefone))
+            {
+                return false;
+            }
+            if (string.IsNullOrEmpty(Email))
+            {
+                return false;
+            }
+            if (genero == 0)
+            {
+                return false;
+            }
+            if (endereço == null)
+            {
+                return false;
+            }
+            if (string.IsNullOrEmpty(NomeSocial))
+            {
+                return false;
+            }
+            if (etinia == 0)
+            {
+                return false;
+            }
+            if (Estrangeiro == 0)
+            {
+                return false;
+            }
+            if (tipocliente == 0)
+            {
+                return false;
+            }
+            return true;
+        }
+
+
     }
+
+
 }

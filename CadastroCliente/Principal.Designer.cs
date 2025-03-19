@@ -1,6 +1,6 @@
 ﻿namespace CadastroCliente
 {
-    partial class Form1
+    partial class Principal
     {
         /// <summary>
         ///  Required designer variable.
@@ -63,6 +63,7 @@
             comboBox1 = new ComboBox();
             label17 = new Label();
             maskedTextBox2 = new MaskedTextBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -382,12 +383,23 @@
             maskedTextBox2.Size = new Size(69, 25);
             maskedTextBox2.TabIndex = 37;
             // 
-            // Form1
+            // button1
+            // 
+            button1.Location = new Point(386, 459);
+            button1.Name = "button1";
+            button1.Size = new Size(114, 35);
+            button1.TabIndex = 38;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1012, 593);
+            Controls.Add(button1);
             Controls.Add(maskedTextBox2);
             Controls.Add(label17);
             Controls.Add(comboBox1);
@@ -425,7 +437,7 @@
             Controls.Add(textBox1);
             Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             ForeColor = SystemColors.ControlText;
-            Name = "Form1";
+            Name = "Principal";
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
@@ -468,5 +480,6 @@
         private ComboBox comboBox1;
         private Label label17;
         private MaskedTextBox maskedTextBox2;
+        private Button button1;
     }
 }
