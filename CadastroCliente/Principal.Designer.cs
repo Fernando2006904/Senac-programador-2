@@ -15,7 +15,9 @@
         {
             if (disposing && (components != null))
             {
+
                 components.Dispose();
+
             }
             base.Dispose(disposing);
         }
@@ -75,10 +77,10 @@
             // 
             // maskedTextBox1
             // 
-            maskedTextBox1.Location = new Point(149, 161);
+            maskedTextBox1.Location = new Point(115, 161);
             maskedTextBox1.Mask = "00/00/0000";
             maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(67, 25);
+            maskedTextBox1.Size = new Size(152, 25);
             maskedTextBox1.TabIndex = 1;
             maskedTextBox1.ValidatingType = typeof(DateTime);
             // 
@@ -351,10 +353,10 @@
             // 
             // maskedTextBox4
             // 
-            maskedTextBox4.Location = new Point(141, 217);
+            maskedTextBox4.Location = new Point(115, 217);
             maskedTextBox4.Mask = "(999) 000-0000";
             maskedTextBox4.Name = "maskedTextBox4";
-            maskedTextBox4.Size = new Size(82, 25);
+            maskedTextBox4.Size = new Size(152, 25);
             maskedTextBox4.TabIndex = 34;
             // 
             // comboBox1
@@ -369,7 +371,7 @@
             // 
             label17.AutoSize = true;
             label17.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label17.Location = new Point(634, 441);
+            label17.Location = new Point(646, 438);
             label17.Name = "label17";
             label17.Size = new Size(45, 25);
             label17.TabIndex = 36;
@@ -377,7 +379,7 @@
             // 
             // maskedTextBox2
             // 
-            maskedTextBox2.Location = new Point(622, 469);
+            maskedTextBox2.Location = new Point(634, 465);
             maskedTextBox2.Mask = "000-0000";
             maskedTextBox2.Name = "maskedTextBox2";
             maskedTextBox2.Size = new Size(69, 25);
@@ -385,11 +387,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(386, 459);
+            button1.Location = new Point(386, 465);
             button1.Name = "button1";
             button1.Size = new Size(114, 35);
             button1.TabIndex = 38;
-            button1.Text = "button1";
+            button1.Text = "Cadastrar";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
