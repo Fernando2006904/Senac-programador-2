@@ -66,6 +66,7 @@
             label17 = new Label();
             maskedTextBox2 = new MaskedTextBox();
             button1 = new Button();
+            checkBox2 = new CheckBox();
             SuspendLayout();
             // 
             // textBox1
@@ -104,15 +105,15 @@
             checkBox1.AutoSize = true;
             checkBox1.Location = new Point(321, 133);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(87, 21);
+            checkBox1.Size = new Size(48, 21);
             checkBox1.TabIndex = 7;
-            checkBox1.Text = "checkBox1";
+            checkBox1.Text = "Sim";
             checkBox1.UseVisualStyleBackColor = true;
             // 
             // radioButton1
             // 
             radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(450, 132);
+            radioButton1.Location = new Point(448, 132);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(101, 21);
             radioButton1.TabIndex = 8;
@@ -395,12 +396,23 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(321, 161);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(52, 21);
+            checkBox2.TabIndex = 39;
+            checkBox2.Text = "Não";
+            checkBox2.UseVisualStyleBackColor = true;
+            // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1012, 593);
+            Controls.Add(checkBox2);
             Controls.Add(button1);
             Controls.Add(maskedTextBox2);
             Controls.Add(label17);
@@ -483,5 +495,6 @@
         private Label label17;
         private MaskedTextBox maskedTextBox2;
         private Button button1;
+        private CheckBox checkBox2;
     }
 }

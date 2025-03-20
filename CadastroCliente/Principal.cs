@@ -14,42 +14,59 @@ namespace CadastroCliente
 
 
 
+        //Para fixar o ID de todos os clientes
+        private const int ID_Fixo = 4;
 
-        private static int ultimodID = 0;
+
+
+
         public Principal()
         {
             InitializeComponent();
             comboBox1.Items.Add("Masculino");
             comboBox1.Items.Add("Feminino");
+            comboBox2.Items.Add("Branco");
+            comboBox2.Items.Add("Negro");
+            comboBox2.Items.Add("Pardo");
+            
+            
+           
 
+            
 
-            //Cliente1
-
-
+            
 
             EndereçoCliente endereçoFernando = new EndereçoCliente() { Logradouro = "Praça São josé", Numero = "91", Complemento = "Ap10", Bairro = "Moraes", Municipio = "EmbuGuaçu", Estado = "Maranhão", CEP = "12345-10" };
             Cliente Fernando = new Cliente() { ID = 1, Nome = "Fernando", datanascimento = "01/01/1990", telefone = "11999999999", Email = "Fefe18++@gmail.com", genero = genero.Masculino, endereço = endereçoFernando, NomeSocial = "Fernando", etinia = Etinia_2.Pardo, Estrangeiro = Estrangeiro_Cliente.não, tipocliente = Tipocliente.PF };
-            //Cliente2
+            
 
 
             EndereçoCliente endereçoValdeci = new EndereçoCliente() { Logradouro = "Avenida 2", Numero = "76", Complemento = "Ap20", Bairro = "Jardim Espirito Santo", Municipio = "Vargem Grande", Estado = "Amazonas", CEP = "12345-20" };
 
-            Cliente Valdeci = new Cliente() { ID = 3, Nome = "Valdeci", datanascimento = "01/01/1990", telefone = "11999999999", Email = "Valdeci14!@gmail.com", genero = genero.Masculino, endereço = endereçoFernando, NomeSocial = "Valdeci", etinia = Etinia_2.Pardo, Estrangeiro = Estrangeiro_Cliente.não, tipocliente = Tipocliente.PF };
-            //Cliente3
+            Cliente Valdeci = new Cliente() { ID = 2, Nome = "Valdeci", datanascimento = "01/01/1990", telefone = "11999999999", Email = "Valdeci14!@gmail.com", genero = genero.Masculino, endereço = endereçoFernando, NomeSocial = "Valdeci", etinia = Etinia_2.Pardo, Estrangeiro = Estrangeiro_Cliente.não, tipocliente = Tipocliente.PF };
+            
 
 
             EndereçoCliente endereçoMaria = new EndereçoCliente() { Logradouro = "Camposociety", Numero = "10", Complemento = "Ap30", Bairro = "Jardim Santa cruz", Municipio = "Embu4", Estado = "Rio de Janeiro", CEP = "12345-30" };
-            Cliente Maria = new Cliente() { ID = 2, Nome = "Maria", datanascimento = "01/01/1990", telefone = "11999999999", Email = "Maria10*@gmail.com", genero = genero.Feminino, endereço = endereçoFernando, NomeSocial = "Maria", etinia = Etinia_2.Branco, Estrangeiro = Estrangeiro_Cliente.não, tipocliente = Tipocliente.PJ };
+            Cliente Maria = new Cliente() { ID = 3, Nome = "Maria", datanascimento = "01/01/1990", telefone = "11999999999", Email = "Maria10*@gmail.com", genero = genero.Feminino, endereço = endereçoFernando, NomeSocial = "Maria", etinia = Etinia_2.Branco, Estrangeiro = Estrangeiro_Cliente.não, tipocliente = Tipocliente.PJ };
 
         }
+
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
 
 
-            ValidarEmail();
+
+             ValidarEmail();     
             ValidarTelefone();
             ValidarGenero();
+            EtniaCliente();
+
+            
+           
+            
 
 
 
@@ -82,7 +99,7 @@ namespace CadastroCliente
 
 
 
-
+                
 
 
             }
@@ -107,6 +124,20 @@ namespace CadastroCliente
 
             MessageBox.Show("Data de nascimento Válida.");
 
+            if (checkBox1.Checked)
+            {
+                MessageBox.Show("Pessoa Estrangeira! Validando dados específicos...");
+            }
+            else
+            {
+                MessageBox.Show("Pessoa não estrangeira! Validando dados nacionais...");
+            }
+
+
+            //O ID fixo será o mesmo para todos os clientes
+
+            MessageBox.Show($"Cliente cadastrado com ID {ID_Fixo}", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+           
 
 
 
@@ -124,6 +155,7 @@ namespace CadastroCliente
                 return;
             }
 
+            MessageBox.Show("O Email está válido");
 
 
 
@@ -132,18 +164,8 @@ namespace CadastroCliente
         }
         private void ValidarTelefone()
         {
-            string telefone = maskedTextBox4.Text;
-            string telefoneParttern = @"^\(\d{2}\)\s\d{4,5}-\d{4}$";
-            //O Regex foi usado para validar formato de dados como o telefone
 
-            if (!Regex.IsMatch(telefone, telefoneParttern))
-            {
-                MessageBox.Show("O telefone deve conter (XX) XXXX-XXXX ou (XX) XXXXX-XXXX");
-                maskedTextBox4.Focus(); //Coloca o foco no campo telefone
-                return;
-            }
 
-            MessageBox.Show("Telefone Válido.");
 
         }
 
@@ -157,6 +179,46 @@ namespace CadastroCliente
             }
 
             MessageBox.Show("Genêro Válido");
+        }
+
+
+        private void EtniaCliente()
+        {
+            if (comboBox2.SelectedIndex == -1)
+            {
+                MessageBox.Show("Por Favor, Selecione uma Etnia (Branco,Negro ou Pardo.");
+                return;
+
+            }
+            MessageBox.Show("Etnia Válida");
+
+
+
+
+
+        }
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!checkBox1.Checked)
+            {
+                MessageBox.Show("A Pessoa é estrangeira");
+            }
+            else
+            {
+                MessageBox.Show("A Pessoa não é estrangeira");
+            }
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }

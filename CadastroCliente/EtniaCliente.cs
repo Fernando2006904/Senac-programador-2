@@ -8,8 +8,8 @@ namespace CadastroCliente
 {
     enum EtniaCliente
     {
-        Br,
-        negra,
-        parda,
+        Branco,
+        negro,
+        pardo,
     }
 }
