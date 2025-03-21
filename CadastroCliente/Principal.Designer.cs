@@ -67,6 +67,8 @@
             maskedTextBox2 = new MaskedTextBox();
             button1 = new Button();
             checkBox2 = new CheckBox();
+            dataGridView1 = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // textBox1
@@ -406,12 +408,28 @@
             checkBox2.Text = "Não";
             checkBox2.UseVisualStyleBackColor = true;
             // 
+            // dataGridView1
+            // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.AllowUserToOrderColumns = true;
+            dataGridView1.AllowUserToResizeRows = false;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(795, 12);
+            dataGridView1.MultiSelect = false;
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridView1.Size = new Size(455, 497);
+            dataGridView1.TabIndex = 3;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
             // Principal
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(1012, 593);
+            ClientSize = new Size(1262, 593);
+            Controls.Add(dataGridView1);
             Controls.Add(checkBox2);
             Controls.Add(button1);
             Controls.Add(maskedTextBox2);
@@ -453,6 +471,7 @@
             ForeColor = SystemColors.ControlText;
             Name = "Principal";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -496,5 +515,6 @@
         private MaskedTextBox maskedTextBox2;
         private Button button1;
         private CheckBox checkBox2;
+        private DataGridView dataGridView1;
     }
 }
