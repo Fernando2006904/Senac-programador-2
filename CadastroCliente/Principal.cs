@@ -1,4 +1,5 @@
 using System.Drawing.Text;
+using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
 namespace CadastroCliente
@@ -24,11 +25,19 @@ namespace CadastroCliente
         public Principal()
         {
             InitializeComponent();
+            
             comboBox1.Items.Add("Masculino");
             comboBox1.Items.Add("Feminino");
             comboBox2.Items.Add("Branco");
             comboBox2.Items.Add("Negro");
             comboBox2.Items.Add("Pardo");
+            
+                
+            
+                
+
+            
+
 
 
 
@@ -40,7 +49,7 @@ namespace CadastroCliente
             EndereçoCliente endereçoFernando = new EndereçoCliente() { Logradouro = "Praça São josé", Numero = "91", Complemento = "Ap10", Bairro = "Moraes", Municipio = "EmbuGuaçu", Estado = "Maranhão", CEP = "12345-10" };
             Cliente Fernando = new Cliente() { ID = 1, Nome = "Fernando", datanascimento = "01/01/1990", telefone = "11999999999", Email = "Fefe18++@gmail.com", genero = genero.Masculino, endereço = endereçoFernando, NomeSocial = "Fernando", etinia = Etinia_2.Pardo, Estrangeiro = Estrangeiro_Cliente.não, tipocliente = Tipocliente.PF };
             clientes.Add(Fernando);
-
+            
 
 
             EndereçoCliente endereçoValdeci = new EndereçoCliente() { Logradouro = "Avenida 2", Numero = "76", Complemento = "Ap20", Bairro = "Jardim Espirito Santo", Municipio = "Vargem Grande", Estado = "Amazonas", CEP = "12345-20" };
@@ -55,7 +64,7 @@ namespace CadastroCliente
 
             BindingSource.DataSource = clientes;
             dataGridView1.DataSource = BindingSource;
-            
+
 
 
 
@@ -66,7 +75,7 @@ namespace CadastroCliente
         private void button1_Click(object sender, EventArgs e)
         {
             EndereçoCliente endereçoMaria = new EndereçoCliente() { Logradouro = "Camposociety", Numero = "10", Complemento = "Ap30", Bairro = "Jardim Santa cruz", Municipio = "Embu4", Estado = "Rio de Janeiro", CEP = "12345-30" };
-            Cliente Maria = new Cliente() { ID = 3, Nome = "Maria", datanascimento = "01/01/1990", telefone = "11999999999", Email = "Maria10*@gmail.com", genero = genero.Feminino,  NomeSocial = "Maria", etinia = Etinia_2.Branco, Estrangeiro = Estrangeiro_Cliente.não, tipocliente = Tipocliente.PJ };
+            Cliente Maria = new Cliente() { ID = 3, Nome = "Maria", datanascimento = "01/01/1990", telefone = "11999999999", Email = "Maria10*@gmail.com", genero = genero.Feminino, NomeSocial = "Maria", etinia = Etinia_2.Branco, Estrangeiro = Estrangeiro_Cliente.não, tipocliente = Tipocliente.PJ };
 
 
 
@@ -75,7 +84,7 @@ namespace CadastroCliente
 
 
 
-          
+
             BindingSource.ResetBindings(false);
 
 
@@ -84,7 +93,7 @@ namespace CadastroCliente
             ValidarGenero();
             EtniaCliente();
 
-            
+
 
 
 
@@ -104,7 +113,7 @@ namespace CadastroCliente
             if (nome.Any(c => Char.IsDigit(c) || Char.IsPunctuation(c)))
             {
                 MessageBox.Show("O nome não pode conter números ou caracteres especiais.");
-                return;
+                
             }
 
 
@@ -115,7 +124,7 @@ namespace CadastroCliente
             if (!DateTime.TryParse(textBox1.Text, out datadenascimento) || datadenascimento > DateTime.Now)
             {
                 MessageBox.Show("Data de nascimento inválida. A data não pode ser no futuro.");
-                return;
+                
 
 
 
@@ -133,45 +142,42 @@ namespace CadastroCliente
                     MessageBox.Show($"O cliente deve ter pelo menos {idadeMinima} anos.");
                     return;
                 }
+
             }
 
             if (idade < idadeMinima)
             {
                 MessageBox.Show($"O cliente deve ter pelo menos {idadeMinima} anos.");
-                return;
+               
             }
 
 
             MessageBox.Show("Data de nascimento Válida.");
+            
 
-            if (checkBox1.Checked)
-            {
-                MessageBox.Show("Pessoa Estrangeira! Validando dados específicos...");
-            }
-            else
-            {
-                MessageBox.Show("Pessoa não estrangeira! Validando dados nacionais...");
-            }
+
+
+
+
+
+
 
 
             //O ID fixo será o mesmo para todos os clientes
 
             MessageBox.Show($"Cliente cadastrado com ID {ID_Fixo}", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
-
-            if (!maskedTextBox4.MaskFull) ;
-
-
-            MessageBox.Show("O número de Telefone não está no formato correto");
-            return;
-
-
-
-
+           
 
 
         }
+
+
+
+
+
+
+
+
         private void ValidarEmail()
         {
             string email = textBox8.Text;
@@ -251,12 +257,129 @@ namespace CadastroCliente
 
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
+            string logradouro = TextBoxLogradouro.Text;
 
+            if (string.IsNullOrEmpty(logradouro))
+            {
+                MessageBox.Show("O Campo de logradouro não pode estar vazio!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+
+            }
+
+            bool IsValid = false;
+            foreach (char c in logradouro)
+            {
+
+
+                if (!Char.IsLetterOrDigit(c) && c != ' ' && c != ',' && c != '_' && c != '-')
+                {
+                    IsValid = false;
+
+
+
+
+                }
+            }
+            if (IsValid)
+            {
+
+
+
+                MessageBox.Show("O logradouro contém caracteres inválidos. Apenas letras, números, espaços, vírgulas, pontos e hífens são permitidos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+
+            }
+
+            MessageBox.Show("Logradouro Válido! ", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+
+            string numeroCasa = textBox5.Text.Trim();
+
+            if (string.IsNullOrEmpty(numeroCasa))
+            {
+                MessageBox.Show("O número da casa não pode estar vazio!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                
+            }
+
+
+            if (!numeroCasa.All(Char.IsDigit))
+            {
+                MessageBox.Show("O número da casa deve conter apenas números!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            MessageBox.Show("Número da casa válido!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
+
+
+
+            string Complemento = TextBoxComplemento.Text;
+
+
+            if (string.IsNullOrEmpty(Complemento))
+            {
+                MessageBox.Show("O Campo de complemento não pode estar vazio!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+
+            }
+            MessageBox.Show("O Complemento está Válido", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+            string Bairro = textBox2.Text;
+
+            if (string.IsNullOrEmpty (Bairro))
+            {
+                MessageBox.Show("O Bairro não foi encontrado!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            MessageBox.Show("Bairro Encontrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+
+
+            string Municipio = textBox2.Text;
+
+            if (string.IsNullOrEmpty(Municipio))
+            {
+                MessageBox.Show("O Municipio não foi encontrado!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            MessageBox.Show("Municipio Encontrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            string CEP =maskedTextBox2.Text;
+
+            if (string.IsNullOrEmpty(CEP))
+            {
+                MessageBox.Show("O formato do código está incorreto!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            MessageBox.Show("CEP Encontrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+
+
     }
-}
+        }
+    
+
+
+       
+
+        
+        
+
+        
+
+        
+        
+
+        
+    
+
+
+
+
 
 
 

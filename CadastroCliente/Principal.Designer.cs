@@ -38,10 +38,9 @@
             radioButton1 = new RadioButton();
             textBox4 = new TextBox();
             textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
+            TextBoxComplemento = new TextBox();
+            TextBoxLogradouro = new TextBox();
             comboBox3 = new ComboBox();
-            maskedTextBox3 = new MaskedTextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -68,6 +67,9 @@
             button1 = new Button();
             checkBox2 = new CheckBox();
             dataGridView1 = new DataGridView();
+            button2 = new Button();
+            textBox2 = new TextBox();
+            radioButton2 = new RadioButton();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -117,10 +119,10 @@
             radioButton1.AutoSize = true;
             radioButton1.Location = new Point(448, 132);
             radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(101, 21);
+            radioButton1.Size = new Size(106, 21);
             radioButton1.TabIndex = 8;
             radioButton1.TabStop = true;
-            radioButton1.Text = "radioButton1";
+            radioButton1.Text = "Pessoa Física ";
             radioButton1.UseVisualStyleBackColor = true;
             // 
             // textBox4
@@ -137,19 +139,19 @@
             textBox5.Size = new Size(131, 25);
             textBox5.TabIndex = 10;
             // 
-            // textBox6
+            // TextBoxComplemento
             // 
-            textBox6.Location = new Point(599, 235);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(131, 25);
-            textBox6.TabIndex = 11;
+            TextBoxComplemento.Location = new Point(599, 235);
+            TextBoxComplemento.Name = "TextBoxComplemento";
+            TextBoxComplemento.Size = new Size(131, 25);
+            TextBoxComplemento.TabIndex = 11;
             // 
-            // textBox7
+            // TextBoxLogradouro
             // 
-            textBox7.Location = new Point(599, 123);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(131, 25);
-            textBox7.TabIndex = 12;
+            TextBoxLogradouro.Location = new Point(599, 123);
+            TextBoxLogradouro.Name = "TextBoxLogradouro";
+            TextBoxLogradouro.Size = new Size(131, 25);
+            TextBoxLogradouro.TabIndex = 12;
             // 
             // comboBox3
             // 
@@ -158,13 +160,6 @@
             comboBox3.Name = "comboBox3";
             comboBox3.Size = new Size(131, 25);
             comboBox3.TabIndex = 13;
-            // 
-            // maskedTextBox3
-            // 
-            maskedTextBox3.Location = new Point(599, 291);
-            maskedTextBox3.Name = "maskedTextBox3";
-            maskedTextBox3.Size = new Size(131, 25);
-            maskedTextBox3.TabIndex = 14;
             // 
             // label1
             // 
@@ -394,7 +389,7 @@
             button1.Name = "button1";
             button1.Size = new Size(114, 35);
             button1.TabIndex = 38;
-            button1.Text = "Cadastrar";
+            button1.Text = "Cadastro Cliente";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -421,7 +416,34 @@
             dataGridView1.ReadOnly = true;
             dataGridView1.Size = new Size(455, 497);
             dataGridView1.TabIndex = 3;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(386, 403);
+            button2.Name = "button2";
+            button2.Size = new Size(114, 35);
+            button2.TabIndex = 40;
+            button2.Text = "Endereço Cliente";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(599, 291);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(131, 25);
+            textBox2.TabIndex = 41;
+            // 
+            // radioButton2
+            // 
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(448, 165);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(115, 21);
+            radioButton2.TabIndex = 42;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Pessoa Jurídica";
+            radioButton2.UseVisualStyleBackColor = true;
             // 
             // Principal
             // 
@@ -429,6 +451,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1262, 593);
+            Controls.Add(radioButton2);
+            Controls.Add(textBox2);
+            Controls.Add(button2);
             Controls.Add(dataGridView1);
             Controls.Add(checkBox2);
             Controls.Add(button1);
@@ -455,10 +480,9 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(maskedTextBox3);
             Controls.Add(comboBox3);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
+            Controls.Add(TextBoxLogradouro);
+            Controls.Add(TextBoxComplemento);
             Controls.Add(textBox5);
             Controls.Add(textBox4);
             Controls.Add(radioButton1);
@@ -486,10 +510,9 @@
         private RadioButton radioButton1;
         private TextBox textBox4;
         private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
+        private TextBox TextBoxComplemento;
+        private TextBox TextBoxLogradouro;
         private ComboBox comboBox3;
-        private MaskedTextBox maskedTextBox3;
         private Label label1;
         private Label label2;
         private Label label3;
@@ -516,5 +539,8 @@
         private Button button1;
         private CheckBox checkBox2;
         private DataGridView dataGridView1;
+        private Button button2;
+        private TextBox textBox2;
+        private RadioButton radioButton2;
     }
 }
