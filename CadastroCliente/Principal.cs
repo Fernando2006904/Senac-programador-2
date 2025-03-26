@@ -19,7 +19,8 @@ namespace CadastroCliente
 
         //Para fixar o ID de todos os clientes
         private const int ID_Fixo = 4;
-
+       private const int  Email_Fixo = 5234;
+       private const int Telefone_Fixo = 11959;
 
 
 
@@ -67,7 +68,7 @@ namespace CadastroCliente
             dataGridView1.DataSource = BindingSource;
 
 
-
+           
 
         }
 
@@ -75,6 +76,10 @@ namespace CadastroCliente
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+
+           
+
             EndereçoCliente endereçoMaria = new EndereçoCliente() { Logradouro = "Camposociety", Numero = "10", Complemento = "Ap30", Bairro = "Jardim Santa cruz", Municipio = "Embu4", Estado = "Rio de Janeiro", CEP = "12345-30" };
             Cliente Maria = new Cliente() { ID = 3, Nome = "Maria", datanascimento = "01/01/1990", telefone = "11999999999", Email = "Maria10*@gmail.com", genero = genero.Masculino, NomeSocial = "Maria", etinia = Etinia_2.Branco, Estrangeiro = Estrangeiro_Cliente.não, tipocliente = Tipocliente.PJ };
 
