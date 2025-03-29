@@ -10,3 +10,5 @@ VALUES
 ('ação'),
 ('ficção científica'),
 ('romance distópico');
+
+SELECT * FROM livro;
