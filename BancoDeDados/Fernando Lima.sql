@@ -4,19 +4,19 @@ CREATE TABLE IF NOT EXISTS  empregado(
  
 
 id INT PRIMARY KEY AUTO_INCREMENT,
-nome VARCHAR(100) NOT NULL,
+nome_empregado VARCHAR(100) NOT NULL,
 idade VARCHAR(45) NOT NULL,
-departamento INT NOT NULL,
-salario VARCHAR(20) NOT NULL 
-
+id_departamento INT NOT NULL,
+salario VARCHAR(20) NOT NULL,
+FOREIGN KEY (id_departamento) REFERENCES departamento(id)
 );
 
 
 
-INSERT INTO empregado (id, nome, idade, departamento, salario) VALUES('1', 'João', '30', 'RH', '50000'),
-('2', 'Sarah', '28', 'TI', '60000'),
-('3', 'Miguel', '35', 'Vendas', '55000'),
-('4', 'Ana', '27', 'TI', '62000');
+INSERT INTO empregado (id, nome, idade, departamento, salario) VALUES('1', 'João', '30', '1', '50000'),
+('2', 'Sarah', '28', '2', '60000'),
+('3', 'Miguel', '35', '3', '55000'),
+('4', 'Ana', '27', '2', '62000');
 
 
 SELECT * FROM empregado
@@ -68,20 +68,23 @@ FROM empregado WHERE departamento ='Vendas';
 CREATE TABLE IF NOT EXISTS departamento(
 id INT PRIMARY KEY AUTO_INCREMENT,
 nome VARCHAR(100) NOT NULL
-
 );
 
-INSERT INTO departamento (id, nome) VALUES ('1', 'RH'),
-('2', 'TI'),
-('3', 'Vendas');
+INSERT INTO departamento (nome) VALUES ('RH'),
+('TI'),
+('Vendas');
 
+select*
+from departamento;
 
-
-
-SELECT empregado.id, departamento.id
+SELECT empregado.nome AS nome_empregado, departamento.nome_departamento
 FROM empregado
 INNER JOIN departamento
-ON empregado.id = departamento.id
+ON empregados.departamento_id = departamento.id_departamento;
+
+
+
+
 
 
 
