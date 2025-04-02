@@ -28,6 +28,7 @@ SELECT * FROM empregado
 WHERE salario BETWEEN "55000" AND "62000";
 
 
+
 SELECT * FROM empregado
 WHERE idade BETWEEN "27" AND "35";
 
@@ -77,6 +78,10 @@ INSERT INTO departamento (id, nome) VALUES ('1', 'RH'),
 
 
 
+SELECT empregado.id, departamento.id
+FROM empregado
+INNER JOIN departamento
+ON empregado.id = departamento.id
 
 
 
