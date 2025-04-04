@@ -48,10 +48,10 @@ cliente_id VARCHAR(100) NOT NULL
 
 
 INSERT INTO pedido (id, produto_id, quantidade, data_pedido, cliente_id) VALUES('1', '1', '2', '2024-03-10', '1'),
-('2', '3', '1', '2024-03-11', '2'),
-('3', '2', '1', '2024-03-15', '3'),
-('4', '5', '3', '2024-03-18', '1'),
-('5', '4', '4', '2024-03-20', '4');
+('2', '3', '1', '2024-03-11', '2'), -- Celular X
+('3', '2', '1', '2024-03-15', '3'), -- Notebook Y
+('4', '5', '3', '2024-03-18', '1'), -- Mesa de madeira
+('5', '4', '4', '2024-03-20', '4'); 
 
 
 SELECT * FROM pedido;
@@ -97,9 +97,13 @@ WHERE
 
 
 -- 3
-
-SELECT * FROM pedido WHERE data_pedido BETWEEN 2024-03-11 AND 2024-03-20;
-
+SELECT 
+id, produto_id, quantidade, data_pedido, cliente_id
+FROM
+    pedido
+WHERE
+    data_pedido BETWEEN '2024-03-10' AND '2024-03-15'
+ORDER BY data_pedido ASC;
 
 -- 4
 
