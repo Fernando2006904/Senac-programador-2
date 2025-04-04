@@ -3,10 +3,11 @@ CREATE TABLE IF NOT EXISTS cliente(
 
 
 id INT PRIMARY KEY AUTO_INCREMENT,
-nome VARCHAR(100) NOT NULL,
+nome_cliente VARCHAR(100) NOT NULL,
 idade VARCHAR(45) NOT NULL,
 cidade VARCHAR(45) NOT NULL,
 saldo VARCHAR(25) NOT NULL
+
 
 );
 
@@ -47,7 +48,9 @@ CREATE TABLE IF NOT EXISTS pedido(
 id INT PRIMARY KEY AUTO_INCREMENT,
 client_id INT NOT NULL,
 valor DECIMAL(20,2) NOT NULL,
-data_pedido VARCHAR(50) NOT NULL
+data_pedido VARCHAR(50) NOT NULL,
+id_cliente INT NOT NULL,
+FOREIGN KEY (id_cliente) REFERENCES cliente(id)
 
 );
 
@@ -71,9 +74,13 @@ FROM pedido;
 -- Exercício 4
 
 
-SELECT pedido.id, cliente.nome, valor
-FROM cliente
-INNER JOIN pedido ON cliente.id = pedido.cliente_id;
+SELECT * FROM cliente;
+
+
+
+-- Exercício 5
+
+SELECT nome, saldo FROM idade WHERE saldo > (SELECT AVG(saldo) FROM idade)
 
 
 
