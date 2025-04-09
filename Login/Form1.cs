@@ -1,11 +1,31 @@
+using MySql.Data.MySqlClient;
+
 namespace Login
 {
     public partial class Form1 : Form
+
+
+
+
     {
+        
+        private static readonly string ConnectionString = "datasource=localhost;username=root;password=;database=senac;";
+
+       private readonly  MySqlConnection  Connection = new MySqlConnection(ConnectionString);
+
+
+
         public Form1()
         {
             InitializeComponent();
+           
         }
+
+
+        
+
+       
+
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
@@ -35,6 +55,57 @@ namespace Login
         private void Cadastro_Click(object sender, EventArgs e)
         {
 
+            bool autenticado = false;
+            string usuario = textboxusuario.Text;
+            string senha = textboxsenha.Text;
+
+
+
+
+
+
+
+
+
+
+            try
+            {
+                Connection.Open();
+
+                string query = $"SELECT Senha    FROM   usuario WHERE    email = '{usuario}';";
+
+                MySqlCommand MySqlCommand = new MySqlCommand(query, Connection);
+                MySqlDataReader reader = MySqlCommand.ExecuteReader();
+
+
+                autenticado = reader.Read() && reader.GetString(0) == senha;
+
+
+
+
+
+            }
+            catch 
+            {
+                MessageBox.Show("Erro ao conectar ao banco de dados: ");
+            }
+            finally
+            {
+                Connection.Close();
+            }
+
+            
+
+
+
+
+           
+
+
+
+
+
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -44,9 +115,46 @@ namespace Login
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            bool autenticado = false;
             string usuario = textboxusuario.Text;
             string senha = textboxsenha.Text;
 
+
+
+
+
+
+
+
+
+
+            try
+            {
+                Connection.Open();
+
+                string query = $"SELECT Senha    FROM   usuario WHERE    email = '{usuario}';";
+
+                MySqlCommand MySqlCommand = new MySqlCommand(query, Connection);
+                MySqlDataReader reader = MySqlCommand.ExecuteReader();
+
+
+                autenticado = reader.Read() && reader.GetString(0) == senha;
+
+
+
+
+
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao conectar ao banco de dados: ");
+            }
+            finally
+            {
+                Connection.Close();
+            }
+          
 
             if (usuario == null || usuario == "")
             {
