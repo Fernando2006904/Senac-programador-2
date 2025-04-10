@@ -1,0 +1,16 @@
+CREATE TABLE cliente(
+
+id INT PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(100) NOT NULL,
+nome_social VARCHAR(100) NULL,
+data_nascimento date NOT NULL,
+telefone VARCHAR(11) NOT NULL UNIQUE,
+email VARCHAR(25) NOT NULL UNIQUE,
+genero INT NOT NULL,
+etnia INT NOT NULL,
+estrangeiro BIT NOT NULL,
+tipo INT NOT NULL
+
+);
+
+
