@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace CadastroCliente
 {
-    enum ValidarTelefone
+    internal class Cliente_repositório
     {
-
     }
 }

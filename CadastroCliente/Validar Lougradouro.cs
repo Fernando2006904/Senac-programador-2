@@ -8,5 +8,6 @@ namespace CadastroCliente
 {
     enum Validar_Lougradouro
     {
+        
     }
 }

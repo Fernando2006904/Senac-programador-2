@@ -6,13 +6,7 @@ using System.Threading.Tasks;
 
 namespace CadastroCliente
 {
-    enum Etinia_2
+    internal class table_endereço
     {
-        Branco,
-        Pardo
-            
-
-
-
     }
 }

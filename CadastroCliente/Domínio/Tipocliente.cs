@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CadastroCliente
+namespace CadastroCliente.Domínio
 {
-    enum EtniaCliente
+    enum Tipocliente
     {
-        Branco,
-        negro,
-        pardo,
+
+        PF,
+        PJ
+
+
     }
 }

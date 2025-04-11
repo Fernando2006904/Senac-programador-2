@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace CadastroCliente
 {
-    enum Genero_Cliente
+    internal class table_clienteSql
     {
-        masculino,
-        feminino,
     }
 }

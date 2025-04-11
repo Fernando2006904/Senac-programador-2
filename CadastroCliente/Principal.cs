@@ -1,17 +1,18 @@
 using System.Drawing.Text;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
+using CadastroCliente.Domínio;
 
 namespace CadastroCliente
 {
     public partial class Principal : Form
     {
 
-        
 
 
 
 
+        private readonly Cliente Cliente = new();
         private readonly List<Cliente> clientes = [];
         private readonly BindingSource BindingSource = [];
 
@@ -20,7 +21,8 @@ namespace CadastroCliente
         //Para fixar o ID de todos os clientes
         private const int ID_Fixo = 4;
        private const int  Email_Fixo = 5234;
-       private const int Telefone_Fixo = 11959;
+       private const int Telefone_Fixo = 11959; 
+
 
 
 
@@ -364,8 +366,16 @@ namespace CadastroCliente
             MessageBox.Show("CEP Encontrado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        private void ListarClientes(object sender, EventArgs e)
+        {
+            BindingSource.DataSource = Cliente;
+            BindingSource.DataSource = Cliente.ListarClientes();
+            dataGridViewClientes.DataSource = BindingSource;
+
+        }
 
 
+        
     }
         }
     
