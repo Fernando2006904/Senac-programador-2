@@ -4,18 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CadastroCliente
+namespace Lista_Atividades.Banco_de_Dados
 {
-    internal class Cliente_repositório
+    internal class Table_Atividade
     {
-
-       
-        
-
-        
-        
-        
-
     }
 }
-

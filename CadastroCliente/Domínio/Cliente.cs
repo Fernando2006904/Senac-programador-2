@@ -19,11 +19,10 @@ namespace CadastroCliente
         public genero genero { get; set; }
         public EndereçoCliente endereço { get; set; }
         public string NomeSocial { get; set; }
-        public Etinia_2 etinia { get; set; }
-
+        
         public Estrangeiro_Cliente Estrangeiro { get; set; }
 
-        public Tipocliente tipocliente { get; set; }
+        
 
         
          

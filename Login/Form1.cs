@@ -156,6 +156,13 @@ namespace Login
             }
           
 
+            
+
+
+
+
+
+
             if (usuario == null || usuario == "")
             {
                 labelresultado.Text = "usuario eh obrigatorio!!!";
