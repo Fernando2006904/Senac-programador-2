@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lista_Atividades.Banco_de_Dados
+namespace Lista_Atividades.Domínio
 {
-    internal class Table_Atividade
+   internal enum  Situação
     {
+        Pendente,
+        Realizando,
+        concluido
+
     }
 }

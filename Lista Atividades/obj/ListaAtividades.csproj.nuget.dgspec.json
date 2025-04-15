@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programação\\Senac-programador-2\\Lista Atividades\\Lista Atividades.csproj": {}
+    "D:\\Programação\\Senac-programador-2\\Lista Atividades\\ListaAtividades.csproj": {}
   },
   "projects": {
-    "D:\\Programação\\Senac-programador-2\\Lista Atividades\\Lista Atividades.csproj": {
+    "D:\\Programação\\Senac-programador-2\\Lista Atividades\\ListaAtividades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programação\\Senac-programador-2\\Lista Atividades\\Lista Atividades.csproj",
-        "projectName": "Lista Atividades",
-        "projectPath": "D:\\Programação\\Senac-programador-2\\Lista Atividades\\Lista Atividades.csproj",
+        "projectUniqueName": "D:\\Programação\\Senac-programador-2\\Lista Atividades\\ListaAtividades.csproj",
+        "projectName": "ListaAtividades",
+        "projectPath": "D:\\Programação\\Senac-programador-2\\Lista Atividades\\ListaAtividades.csproj",
         "packagesPath": "C:\\Users\\fernando.lalves2\\.nuget\\packages\\",
         "outputPath": "D:\\Programação\\Senac-programador-2\\Lista Atividades\\obj\\",
         "projectStyle": "PackageReference",
@@ -49,6 +49,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
