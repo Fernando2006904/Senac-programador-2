@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lista_Atividades.Domínio
 {
-   internal enum  Situação
+    internal enum Situacao
     {
         Pendente,
         Realizando,
-        concluido
+        Concluido,
 
     }
 }

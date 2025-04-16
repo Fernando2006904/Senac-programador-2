@@ -64,7 +64,7 @@ namespace Lista_Atividades
             {
                 con.Open();
 
-                string query = $"SELECT * FROM atividade WHERE situacao = {Situação.Realizando};";
+                string query = $"SELECT * FROM atividade WHERE situacao = {Situacao.Realizando};";
 
                 using (var cmd = new MySqlCommand(query, con))
                 {
@@ -76,7 +76,7 @@ namespace Lista_Atividades
                             {
                                 Id = reader.GetInt32("id"),
                                 Titulo = reader.GetString("titulo"),
-                                Situacao = (Situação)reader.GetInt32("situacao")
+                                Situacao = (Situacao)reader.GetInt32("situacao")
 
 
 
@@ -98,7 +98,7 @@ namespace Lista_Atividades
             {
                 con.Open();
 
-                string query = $"SELECT * FROM atividade WHERE situacao = {Situação.Pendente};";
+                string query = $"SELECT * FROM atividade WHERE situacao = {Situacao.Pendente};";
 
                 using (var cmd = new MySqlCommand(query, con))
                 {
@@ -110,7 +110,7 @@ namespace Lista_Atividades
                             {
                                 Id = reader.GetInt32("Id"),
                                 Titulo = reader.GetString("titulo"),
-                                Situacao = (Situação)reader.GetInt32("situacao")
+                                Situacao = (Situacao)reader.GetInt32("situacao")
                             });
                         }
                     }
@@ -130,4 +130,5 @@ namespace Lista_Atividades
     
        
     
+
 
