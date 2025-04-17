@@ -15,6 +15,7 @@ namespace Lista_Atividades.Domínio
         public string Titulo { get; set; }
         public Situacao Situacao { get; set; }
 
+
         private readonly AtividadeRepositorio repositorio = new();
 
         public bool Criar()
@@ -56,7 +57,8 @@ namespace Lista_Atividades.Domínio
 
 
 
-            int novasituacao = (int) BuscarProximaSituacao();
+            int novasituação = (int)BuscarProximaSituacao();
+            
                                    
             repositorio.AtualizarSituacao(Id, (int) novasituacao);
             return true;

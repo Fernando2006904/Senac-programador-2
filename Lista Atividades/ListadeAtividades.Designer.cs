@@ -31,8 +31,9 @@
             textBox1AtividadeEmAndamento = new TextBox();
             buttonFinalizar = new Button();
             dataGridViewAtividades = new DataGridView();
-            button1 = new Button();
-            button2 = new Button();
+            buttonAtualizar = new Button();
+            buttonCriar = new Button();
+            labelErro = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridViewAtividades).BeginInit();
             SuspendLayout();
             // 
@@ -43,6 +44,7 @@
             textBox1AtividadeEmAndamento.ReadOnly = true;
             textBox1AtividadeEmAndamento.Size = new Size(648, 23);
             textBox1AtividadeEmAndamento.TabIndex = 0;
+            textBox1AtividadeEmAndamento.TextChanged += textBox1AtividadeEmAndamento_TextChanged;
             // 
             // buttonFinalizar
             // 
@@ -52,32 +54,50 @@
             buttonFinalizar.TabIndex = 1;
             buttonFinalizar.Text = "Finalizar";
             buttonFinalizar.UseVisualStyleBackColor = true;
+            buttonFinalizar.Click += buttonFinalizar_Click;
             // 
             // dataGridViewAtividades
             // 
+            dataGridViewAtividades.AllowUserToAddRows = false;
+            dataGridViewAtividades.AllowUserToDeleteRows = false;
+            dataGridViewAtividades.AllowUserToResizeColumns = false;
+            dataGridViewAtividades.AllowUserToResizeRows = false;
             dataGridViewAtividades.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewAtividades.Location = new Point(12, 82);
+            dataGridViewAtividades.Location = new Point(12, 41);
+            dataGridViewAtividades.MultiSelect = false;
             dataGridViewAtividades.Name = "dataGridViewAtividades";
+            dataGridViewAtividades.ReadOnly = true;
             dataGridViewAtividades.Size = new Size(639, 333);
             dataGridViewAtividades.TabIndex = 2;
             // 
-            // button1
+            // buttonAtualizar
             // 
-            button1.Location = new Point(666, 82);
-            button1.Name = "button1";
-            button1.Size = new Size(168, 23);
-            button1.TabIndex = 3;
-            button1.Text = "Atualizar";
-            button1.UseVisualStyleBackColor = true;
+            buttonAtualizar.Location = new Point(666, 82);
+            buttonAtualizar.Name = "buttonAtualizar";
+            buttonAtualizar.Size = new Size(168, 23);
+            buttonAtualizar.TabIndex = 3;
+            buttonAtualizar.Text = "Atualizar";
+            buttonAtualizar.UseVisualStyleBackColor = true;
+            buttonAtualizar.Click += button1_Click;
             // 
-            // button2
+            // buttonCriar
             // 
-            button2.Location = new Point(666, 390);
-            button2.Name = "button2";
-            button2.Size = new Size(168, 25);
-            button2.TabIndex = 4;
-            button2.Text = "Criar";
-            button2.UseVisualStyleBackColor = true;
+            buttonCriar.Location = new Point(666, 390);
+            buttonCriar.Name = "buttonCriar";
+            buttonCriar.Size = new Size(168, 25);
+            buttonCriar.TabIndex = 4;
+            buttonCriar.Text = "Criar";
+            buttonCriar.UseVisualStyleBackColor = true;
+            buttonCriar.Click += button2_Click;
+            // 
+            // labelErro
+            // 
+            labelErro.AutoSize = true;
+            labelErro.Location = new Point(41, 426);
+            labelErro.Name = "labelErro";
+            labelErro.Size = new Size(38, 15);
+            labelErro.TabIndex = 5;
+            labelErro.Text = "label1";
             // 
             // Form1
             // 
@@ -85,8 +105,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.HotTrack;
             ClientSize = new Size(846, 450);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(labelErro);
+            Controls.Add(buttonCriar);
+            Controls.Add(buttonAtualizar);
             Controls.Add(dataGridViewAtividades);
             Controls.Add(buttonFinalizar);
             Controls.Add(textBox1AtividadeEmAndamento);
@@ -103,7 +124,8 @@
         private TextBox textBox1AtividadeEmAndamento;
         private Button buttonFinalizar;
         private DataGridView dataGridViewAtividades;
-        private Button button1;
-        private Button button2;
+        private Button buttonAtualizar;
+        private Button buttonCriar;
+        private Label labelErro;
     }
 }
