@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CadastroClientes")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("cadastrodeclientes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66c2c3618546d55b3924276035d5c0240c0b59fb")]
-[assembly: System.Reflection.AssemblyProductAttribute("CadastroClientes")]
-[assembly: System.Reflection.AssemblyTitleAttribute("CadastroClientes")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyProductAttribute("cadastrodeclientes")]
+[assembly: System.Reflection.AssemblyTitleAttribute("cadastrodeclientes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

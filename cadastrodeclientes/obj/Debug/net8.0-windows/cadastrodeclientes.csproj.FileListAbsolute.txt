@@ -1,0 +1,16 @@
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\bin\Debug\net8.0-windows\cadastrodeclientes.exe
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\bin\Debug\net8.0-windows\cadastrodeclientes.deps.json
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\bin\Debug\net8.0-windows\cadastrodeclientes.runtimeconfig.json
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\bin\Debug\net8.0-windows\cadastrodeclientes.dll
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\bin\Debug\net8.0-windows\cadastrodeclientes.pdb
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\obj\Debug\net8.0-windows\cadastrodeclientes.Form1.resources
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\obj\Debug\net8.0-windows\cadastrodeclientes.csproj.GenerateResource.cache
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\obj\Debug\net8.0-windows\cadastrodeclientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\obj\Debug\net8.0-windows\cadastrodeclientes.AssemblyInfoInputs.cache
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\obj\Debug\net8.0-windows\cadastrodeclientes.AssemblyInfo.cs
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\obj\Debug\net8.0-windows\cadastrodeclientes.csproj.CoreCompileInputs.cache
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\obj\Debug\net8.0-windows\cadastrodeclientes.dll
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\obj\Debug\net8.0-windows\refint\cadastrodeclientes.dll
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\obj\Debug\net8.0-windows\cadastrodeclientes.pdb
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\obj\Debug\net8.0-windows\cadastrodeclientes.genruntimeconfig.cache
+C:\Users\fernando.lalves2\source\repos\cadastrodeclientes\obj\Debug\net8.0-windows\ref\cadastrodeclientes.dll
