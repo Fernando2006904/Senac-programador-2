@@ -1,0 +1,138 @@
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.exe
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.deps.json
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.runtimeconfig.json
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.pdb
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestãoRH.Form1.resources
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.GenerateResource.cache
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.AssemblyInfoInputs.cache
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.AssemblyInfo.cs
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.CoreCompileInputs.cache
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.sourcelink.json
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\refint\GestaoRH.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.pdb
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.genruntimeconfig.cache
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\ref\GestaoRH.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.Interface_Inicial.resources
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.Properties.Resources.resources
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.AssemblyReference.cache
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.Up2Date
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\daniela.mjesus\Documents\programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\visualPI.Login.resources
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.exe
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.deps.json
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.runtimeconfig.json
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.pdb
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.AssemblyReference.cache
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestãoRH.Form1.resources
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.Interface_Inicial.resources
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\visualPI.Login.resources
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.Properties.Resources.resources
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.GenerateResource.cache
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.AssemblyInfoInputs.cache
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.AssemblyInfo.cs
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.CoreCompileInputs.cache
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.sourcelink.json
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.Up2Date
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\refint\GestaoRH.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.pdb
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.genruntimeconfig.cache
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\ref\GestaoRH.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\Eva\OneDrive\Área de Trabalho\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.exe
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.deps.json
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.runtimeconfig.json
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\GestaoRH.pdb
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\Google.Protobuf.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\Guna.UI2.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.Management.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\System.Text.Json.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\ZstdSharp.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.AssemblyReference.cache
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestãoRH.Form1.resources
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.Interface_Inicial.resources
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\visualPI.Login.resources
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.Properties.Resources.resources
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.GenerateResource.cache
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.AssemblyInfoInputs.cache
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.AssemblyInfo.cs
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.CoreCompileInputs.cache
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.sourcelink.json
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.csproj.Up2Date
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\refint\GestaoRH.dll
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.pdb
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\GestaoRH.genruntimeconfig.cache
+D:\Programação\SENAC-PROGRAMADOR_SISTEMA\GestãoRH\obj\Debug\net8.0-windows\ref\GestaoRH.dll
